@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+  --Body-Paragraph-Bold: 'Poppins',  sans-serif;
+  --Body-Paragraph-Bold-Font-Size: 16px;
+  --Body-Paragraph-Bold-Line-Height: 24px;
+  --Body-Paragraph-Bold-Weight: 600;
+  
+  --Body-Paragraph-Normal: 'Poppins',  sans-serif;
+  --Body-Paragraph-Normal-Font-Size: 16px;
+  --Body-Paragraph-Normal-Line-Height: 24px;
+  --Body-Paragraph-Normal-Weight: 400;
+  
+  --Body-Input-Bold: 'Poppins',  sans-serif;
+  --Body-Input-Bold-Font-Size: 14px;
+  --Body-Input-Bold-Line-Height: 22px;
+  --Body-Input-Bold-Weight: 600;
+  
+  --Body-Input-Normal: 'Poppins',  sans-serif;
+  --Body-Input-Normal-Font-Size: 14px;
+  --Body-Input-Normal-Line-Height: 22px;
+  --Body-Input-Normal-Weight: 400;
+  
+  --Body-Small-Bold: 'Poppins',  sans-serif;
+  --Body-Small-Bold-Font-Size: 12px;
+  --Body-Small-Bold-Line-Height: 20px;
+  --Body-Small-Bold-Weight: 600;
+  
+  --Body-Small-Normal: 'Poppins',  sans-serif;
+  --Body-Small-Normal-Font-Size: 12px;
+  --Body-Small-Normal-Line-Height: 20px;
+  --Body-Small-Normal-Weight: 400;
+  
+  --Body-Label-Bold: 'Poppins',  sans-serif;
+  --Body-Label-Bold-Font-Size: 8px;
+  --Body-Label-Bold-Line-Height: 12px;
+  --Body-Label-Bold-Weight: 400;
+  
+  /* Normal --> Small */
+  --Body-Label-Normal: 'Poppins',  sans-serif; 
+  --Body-Label-Normal-Font-Size: 8px;
+  --Body-Label-Normal-Line-Height: 12px;
+  --Body-Label-Normal-Weight: 600;
+
+  --H1-Bold: 'Poppins', sans-serif;
+  --H1-Bold-Font-Size: 30px;
+  --H1-Bold-Line-Height: 46px; 
+  --H1-Bold-Weight: 700;
+  
+  --H1-Normal: 'Poppins', sans-serif;
+  --H1-Normal-Font-Size: 30px;
+  --H1-Normal-Line-Height: 46px; 
+  --H1-Normal-Weight: 400;
+  
+  --H1-Light: 'Poppins', sans-serif;
+  --H1-Light-Font-Size: 30px;
+  --H1-Light-Line-Height: 46px; 
+  --H1-Light-Weight: 300;
+
+  --H2-Bold: 'Poppins', sans-serif;
+  --H2-Bold-Font-Size: 26px;
+  --H2-Bold-Line-Height: 40px; 
+  --H2-Bold-Weight: 700;
+  
+  --H2-Normal: 'Poppins', sans-serif;
+  --H2-Normal-Font-Size: 26px;
+  --H2-Normal-Line-Height: 40px; 
+  --H2-Normal-Weight: 400;
+  
+  --H2-Light: 'Poppins', sans-serif;
+  --H2-Light-Font-Size: 26px;
+  --H2-Light-Line-Height: 40px; 
+  --H2-Light-Weight: 300;
+
+  --H3-Bold: 'Poppins', sans-serif;
+  --H3-Bold-Font-Size: 22px;
+  --H3-Bold-Line-Height: 28px; 
+  --H3-Bold-Weight: 700;
+  
+  --H3-Normal: 'Poppins', sans-serif;
+  --H3-Normal-Font-Size: 22px;
+  --H3-Normal-Line-Height: 28px; 
+  --H3-Normal-Weight: 400;
+  
+  --H3-Light: 'Poppins', sans-serif;
+  --H3-Light-Font-Size: 22px;
+  --H3-Light-Line-Height: 28px; 
+  --H3-Light-Weight: 300;
+
+  --H4-Bold: 'Poppins', sans-serif;
+  --H4-Bold-Font-Size: 18px;
+  --H4-Bold-Line-Height: 28px; 
+  --H4-Bold-Weight: 700;
+  
+  --H4-Normal: 'Poppins', sans-serif;
+  --H4-Normal-Font-Size: 18px;
+  --H4-Normal-Line-Height: 28px; 
+  --H4-Normal-Weight: 400;
+  
+  --H4-Light: 'Poppins', sans-serif;
+  --H4-Light-Font-Size: 18px;
+  --H4-Light-Line-Height: 28px; 
+  --H4-Light-Weight: 300;
+
+  --Marke: 'Poppins', sans-serif;
+  --Marke-Font-Size: 80px;
+  --Marke-Line-Height: 120px;
+  --Marke-Weight: 700;
+
+  --Slogan: 'Poppins', sans-serif;
+  --Slogan-Font-Size: 60px;
+  --Slogan-Line-Height: 90px;
+  --Slogan-Weight: 700;
+
+  --BigH1-Bold: 'Poppins', sans-serif;
+  --BigH1-Bold-Font-Size: 48px;
+  --BigH1-Bold-Line-Height: 60px;
+  --BigH1-Bold-Weight: 700;
+
+  --BigH1-Normal: 'Poppins', sans-serif;
+  --BigH1-Normal-Font-Size: 48px;
+  --BigH1-Normal-Line-Height: 60px;
+  --BigH1-Normal-Weight: 400;
+
+  --BigH1-Light: 'Poppins', sans-serif;
+  --BigH1-Light-Font-Size: 48px;
+  --BigH1-Light-Line-Height: 60px;
+  --BigH1-Light-Weight: 300;
+}
