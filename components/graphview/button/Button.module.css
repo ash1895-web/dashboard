@@ -1,0 +1,28 @@
+.Container {
+    --icon-opacity: 0.3;
+    --icon-active-opacity: 1;
+}
+
+.Container,.ContainerActive {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.ContainerActive {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08), 0px 4px 8px rgba(50, 50, 71, 0.006);
+}
+
+.icon,.iconActive {
+    width: 14px;
+    height: 14px;
+    opacity: 0.3;
+}
+
+.iconActive {
+    opacity: 1;
+}

@@ -1,0 +1,22 @@
+.Container {
+    --button-width: 80px;
+    --button-height: 66px;
+    --icon-width: 40px;
+    --icon-height: 40px;
+    --icon-border-radius: 15px;
+}
+
+.Container {
+    width: var(--button-width);
+    height: var(--button-height);
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: var(--icon-width);
+    height: var(--icon-height);
+    border-radius: var(--icon-border-radius);
+}

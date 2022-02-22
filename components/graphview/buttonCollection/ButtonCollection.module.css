@@ -1,0 +1,31 @@
+.Container {
+    --container-height: 262px;
+    --container-width: 80px;
+}
+
+.collection {
+    --collection-height: 236px;
+    --collection-width: 44px;
+    --collection-border-radius: 15px;
+    --collection-background-color: #F8F9FE
+}
+
+.Container {
+    width: var(--container-width);
+    height: var(--container-height);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: var(--collection-width);
+    height: var(--collection-height);
+    border-radius: var(--collection-border-radius);
+    background-color: var(--collection-background-color);
+}
