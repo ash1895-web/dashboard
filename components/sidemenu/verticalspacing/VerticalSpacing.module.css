@@ -1,0 +1,16 @@
+.verticalSpacingContainer {
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+}
+
+.verticalSpacingContainer::before{
+    content: '';
+    position: absolute;
+    transform-origin: center;
+    left: 25%;
+    top: 0%;
+    background-color: #F9F9F9;
+    width: 40px;
+    height: 2px;
+}

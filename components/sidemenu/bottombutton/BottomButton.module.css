@@ -1,0 +1,22 @@
+.Container {
+    width: 80px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageBack {
+    height: 44px;
+    width: 44px;
+    border-radius: 15px;
+    background-color: #F8F9FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageContainer {
+    width: 14px;
+    height: 14px;
+}

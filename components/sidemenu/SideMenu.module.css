@@ -1,0 +1,11 @@
+.SideMenuContainer {
+    width: 80px;
+    height: 100vh;
+    border-right: 1px dotted gray;
+    position: relative;
+}
+
+.SideMenuBottom {
+    position: absolute;
+    bottom: 0px;
+}

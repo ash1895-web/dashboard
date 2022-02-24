@@ -9,10 +9,10 @@
 .Container {
     width: var(--button-width);
     height: var(--button-height);
-    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .icon {

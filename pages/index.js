@@ -1,10 +1,10 @@
 import styles from '../styles/Home.module.css'
-import ButtonCollection from '../components/graphview/buttonCollection/ButtonCollection'
+import SideMenu from '../components/sidemenu/SideMenu'
 
 export default function Home() {
   return (
     <div>
-      <ButtonCollection/>
+      <SideMenu/>
     </div>
   )
 }
