@@ -1,11 +1,17 @@
-.SideMenuContainer {
-    width: 80px;
+.SideMenuContainer,.SideMenuContainerVisible {
+  width: 80px;
+  height: auto;
+  border-right: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+  position: relative;
+}
+
+.SideMenuContainerVisible {
+    border-bottom: none;
     height: 100vh;
-    border-right: 1px dotted gray;
-    position: relative;
 }
 
 .SideMenuBottom {
-    position: absolute;
-    bottom: 0px;
+  position: absolute;
+  bottom: 0px;
 }

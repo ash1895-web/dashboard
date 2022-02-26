@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 :root {
-  --Body-Paragraph-Bold: 'Poppins',  sans-serif;
+  --Body-Paragraph-Bold: 'Poppins',  'sans-serif';
   --Body-Paragraph-Bold-Font-Size: 16px;
   --Body-Paragraph-Bold-Line-Height: 24px;
   --Body-Paragraph-Bold-Weight: 600;

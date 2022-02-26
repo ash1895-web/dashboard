@@ -1,8 +1,8 @@
 import styles from './MenuButton.module.css'
 
-const MenuButton = () => {
+const MenuButton = ({toggleView}) => {
     return (
-        <div className={styles.menuButtonContainer}>
+        <div className={styles.menuButtonContainer} onClick={toggleView}>
             <div className={styles.iconContainer}>
                 <div className={styles.firstLine}></div>
                 <div className={styles.secondLine}></div>

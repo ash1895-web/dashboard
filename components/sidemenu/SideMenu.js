@@ -14,28 +14,41 @@ import sun from "../../public/icons/sun.png";
 import web from "../../public/icons/web.png";
 import fourSquare from "../../public/icons/four-square.png";
 import message from "../../public/icons/message.png";
+import { useState } from "react";
 
 const iconArray = [fourSquare, pieChart, clock, sun, web];
 const imgSrcArray = [Bitcoin, Nft];
 
 const SideMenu = () => {
+  const [visibility, setVisibility] = useState(false)
+
+  const toggleView = () => {
+    if (visibility) {
+      setVisibility(false)
+    } else {
+      setVisibility(true)
+    }
+  }
+
   return (
-    <div className={styles.SideMenuContainer}>
-      <MenuButton />
-      <div className={styles.sideMenuContent}>
-        <div className={styles.SideMenuTop}>
-          <VerticalSpacing height={15} />
-          {imgSrcArray.map((item, index) => (
-            <Button key={index} imgSrc={item} />
-          ))}
-          <VerticalSpacing height={22} />
-          <ButtonCollection iconArray={iconArray} />
-        </div>
-        <div className={styles.SideMenuBottom}>
-          <VerticalSpacing height={22} />
-          <BottomButton imgSrc={message}/>
-        </div>
+    <div className={visibility ? styles.SideMenuContainerVisible : styles.SideMenuContainer }>
+      <MenuButton toggleView={toggleView}/>
+      {visibility ? 
+      <div className={styles.SideMenuContent}>
+      <div className={styles.SideMenuTop}>
+        <VerticalSpacing height={15} />
+        {imgSrcArray.map((item, index) => (
+          <Button key={index} imgSrc={item} />
+        ))}
+        <VerticalSpacing height={22} />
+        <ButtonCollection iconArray={iconArray} />
       </div>
+      <div className={styles.SideMenuBottom}>
+        <VerticalSpacing height={22} />
+        <BottomButton imgSrc={message}/>
+      </div>
+    </div>: null}
+      
     </div>
   );
 };

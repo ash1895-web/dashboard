@@ -1,10 +1,10 @@
 import styles from '../styles/Home.module.css'
-import SideMenu from '../components/sidemenu/SideMenu'
+import Navbar from '../components/Navbar/Navbar'
 
 export default function Home() {
   return (
     <div>
-      <SideMenu/>
+      <Navbar/>
     </div>
   )
 }
