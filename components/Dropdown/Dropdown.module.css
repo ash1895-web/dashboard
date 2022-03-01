@@ -1,0 +1,56 @@
+.container {
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleContainer div {
+    margin: 0 2px;
+}
+
+.profileImage {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.dropdownIconOpen, .dropdownIconClose {
+    width: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdownIconClose {
+    transform: rotateZ(180deg);
+}
+
+.optionsOnLeft {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+}
+
+.optionsOnRight {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    right: 0;
+}
+
+.optionContainer div{
+    color: white;
+    padding: 4px 8px;
+    width: max-content;
+    border-bottom: 1px solid white;
+}

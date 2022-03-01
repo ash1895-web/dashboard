@@ -1,13 +1,11 @@
 import styles from './RightContainer.module.css'
 import DisplayMode from "../DisplayMode/DisplayMode";
+import LoginDropdown from './LoginDropdown/LoginDropdown';
 
 const RightContainer = () => {
   return (
     <div className={styles.container}>
-      <p>User Name</p>
-      <div className={styles.profile}>
-
-      </div>
+      <LoginDropdown/>
       <DisplayMode />
     </div>
   );
