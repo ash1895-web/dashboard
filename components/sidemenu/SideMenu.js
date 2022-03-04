@@ -21,6 +21,7 @@ const imgSrcArray = [Bitcoin, Nft];
 
 const SideMenu = () => {
   const [visibility, setVisibility] = useState(false)
+  const [activeId, setActiveId] = useState(0)
 
   const toggleView = () => {
     if (visibility) {
@@ -28,6 +29,10 @@ const SideMenu = () => {
     } else {
       setVisibility(true)
     }
+  }
+
+  const setActive = (e) => {
+      setActiveId(e.currentTarget.id);
   }
 
   return (
@@ -38,7 +43,7 @@ const SideMenu = () => {
       <div className={styles.SideMenuTop}>
         <VerticalSpacing height={15} />
         {imgSrcArray.map((item, index) => (
-          <Button key={index} imgSrc={item} />
+          <Button key={index} imgSrc={item} id={index} activeId={activeId} setActive={setActive}/>
         ))}
         <VerticalSpacing height={22} />
         <ButtonCollection iconArray={iconArray} />

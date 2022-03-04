@@ -2,9 +2,10 @@ import Image from "next/image";
 
 import styles from "./Button.module.css";
 
-const Button = ({ imgSrc }) => {
+const Button = ({ imgSrc, id, activeId, setActive }) => {
+
   return (
-    <div className={styles.Container}>
+    <div className={id == activeId ? styles.activeContainer : styles.inactiveContainer} id={id} onClick={setActive}>
       <div className={styles.icon}>
         <Image src={imgSrc} alt="icon" />
       </div>

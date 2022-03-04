@@ -1,7 +1,22 @@
 .searchIconActive{
     opacity: 1;
+    height: 24px;
+    width: 24px;
+    position: relative;
+}
+
+.searchIconActive::after {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: black;
 }
 
 .searchIcon{
     opacity: 0.2;
+    height: 24px;
+    width: 24px;
 }

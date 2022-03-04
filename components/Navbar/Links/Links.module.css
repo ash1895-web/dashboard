@@ -1,3 +1,20 @@
+.activeLink {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.activeLink::after{
+    position: absolute;
+    bottom: -100%;
+    content: '';
+    display: block;
+    height: 2px;
+    width: 50%;
+    background-color: black;
+    border-radius: 18px;
+}
+
 .inactiveLink {
     color: #D0D1D2;
 }

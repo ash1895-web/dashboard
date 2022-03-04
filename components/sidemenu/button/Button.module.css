@@ -1,18 +1,29 @@
-.Container {
+.inactiveContainer, .activeContainer {
     --button-width: 80px;
     --button-height: 66px;
     --icon-width: 40px;
     --icon-height: 40px;
     --icon-border-radius: 15px;
+    --icon-active-line-width: 4px;
 }
 
-.Container {
+.inactiveContainer, .activeContainer {
     width: var(--button-width);
     height: var(--button-height);
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    position: relative;
+}
+
+.activeContainer::before {
+    position: absolute;
+    left: 0;
+    content: '';
+    width: var(--icon-active-line-width);
+    height: 100%;
+    background-color: black;
 }
 
 .icon {
